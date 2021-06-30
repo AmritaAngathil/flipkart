@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="2" name="TestSuite" time="3,727.435" errors="0" skipped="8">
+<testsuite tests="13" failures="2" name="TestSuite" time="2,533.716" errors="0" skipped="4">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="Flipkart2"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Flipkart2/1/display/redirect?page=tests"/>
+    <property name="JOB_NAME" value="flipkarttest3"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/flipkarttest3/1/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -11,7 +11,7 @@
     <property name="HUDSON_SERVER_COOKIE" value="6339f6188f521e48"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -24,8 +24,8 @@
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="Flipkart2"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Flipkart2/1/display/redirect?page=changes"/>
+    <property name="JOB_BASE_NAME" value="flipkarttest3"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/flipkarttest3/1/display/redirect?page=changes"/>
     <property name="BUILD_DISPLAY_NAME" value="#1"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -50,13 +50,13 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Flipkart2/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/flipkarttest3/1/display/redirect"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Flipkart2/1/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/flipkarttest3/1/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.291-b10"/>
     <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Flipkart2/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/flipkarttest3/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_291"/>
@@ -69,7 +69,7 @@
     <property name="user.script" value=""/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-Flipkart2-1"/>
+    <property name="BUILD_TAG" value="jenkins-flipkarttest3-1"/>
     <property name="JENKINS_SERVER_COOKIE" value="6339f6188f521e48"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -83,7 +83,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
     <property name="java.class.path" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 65097"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61287"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_291/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -99,14 +99,14 @@
     <property name="HUDSON_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Flipkart2/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/flipkarttest3/1/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="user.dir" value="C:\Users\BestInd\eclipse-workspace\FlipkartTest"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/Flipkart2/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/flipkarttest3/"/>
     <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="line.separator" value="
 "/>
@@ -119,12 +119,12 @@
     <property name="GIT_BRANCH" value="origin/main"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="c1b196c0556f9e4a24b2f1d3b5ae6a14e6bd7450"/>
+    <property name="GIT_COMMIT" value="8f7335bee38d41cf1e9a90b1900145f8d2312960"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Flipkart2@tmp"/>
-    <property name="WORKSPACE" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Flipkart2"/>
+    <property name="WORKSPACE_TMP" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\flipkarttest3@tmp"/>
+    <property name="WORKSPACE" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\flipkarttest3"/>
     <property name="maven3.interceptor.common" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.8"/>
@@ -132,8 +132,60 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="GIT_URL" value="https://github.com/AmritaAngathil/flipkart.git"/>
   </properties>
-  <testcase classname="com.flipkart.qa.testcases.LoginPageTest" name="loginTest" time="1.424"/>
-  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="setUp" time="605.233">
+  <testcase classname="com.flipkart.qa.testcases.LoginPageTest" name="loginTest" time="0.508"/>
+  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="verifyPageTitleTest" time="5.091"/>
+  <testcase classname="com.flipkart.qa.testcases.PaymentPageTest" name="verifyPageIconTest" time="5.079"/>
+  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="veifyUserNameTest" time="5.07"/>
+  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="veifyUserNameTest" time="1.944"/>
+  <testcase classname="com.flipkart.qa.testcases.PaymentPageTest" name="setUp" time="16.895">
+    <failure message="element click intercepted: Element &lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;_3704LK&quot; title=&quot;Search for products, brands and more&quot; name=&quot;q&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search for products, brands and more&quot;&gt; is not clickable at point (404, 28). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-AAFC7NS&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:65422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 692d950fe42c647bb594f47534cbb7fb" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;_3704LK&quot; title=&quot;Search for products, brands and more&quot; name=&quot;q&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search for products, brands and more&quot;&gt; is not clickable at point (404, 28). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=91.0.4472.124)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-AAFC7NS&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:65422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 692d950fe42c647bb594f47534cbb7fb
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.flipkart.qa.pages.HomePage.searchProduct(HomePage.java:45)
+	at com.flipkart.qa.testcases.PaymentPageTest.setUp(PaymentPageTest.java:41)
+</failure>
+    <system-err>Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 28003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 30, 2021 8:10:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.flipkart.qa.testcases.PaymentPageTest" name="payment" time="16.896">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="verifyProductNameTest" time="5.065"/>
+  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="searchProductStep" time="10.589"/>
+  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="setUp" time="616.642">
     <failure message="session not created
 from timeout: Timed out receiving message from renderer: 600.000
   (Session info: chrome=91.0.4472.124)
@@ -141,43 +193,43 @@ Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, tim
 System info: host: &apos;DESKTOP-AAFC7NS&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	Ordinal0 [0x00862DB3+2502067]
-	Ordinal0 [0x007FC5B1+2082225]
-	Ordinal0 [0x00702498+1057944]
-	Ordinal0 [0x006F4D2F+1002799]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FA54D+1025357]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006F977C+1021820]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006EF42D+980013]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F3670+996976]
-	Ordinal0 [0x006F3409+996361]
-	Ordinal0 [0x007036A0+1062560]
-	Ordinal0 [0x0074AA59+1354329]
-	Ordinal0 [0x0074967A+1349242]
-	Ordinal0 [0x00745BEB+1334251]
-	Ordinal0 [0x00722174+1188212]
-	Ordinal0 [0x00723009+1191945]
-	GetHandleVerifier [0x009DEC5C+1511084]
-	GetHandleVerifier [0x00A88522+2205554]
-	GetHandleVerifier [0x008E3393+480739]
-	GetHandleVerifier [0x008E2579+477129]
-	Ordinal0 [0x00801E5D+2104925]
-	Ordinal0 [0x008063F8+2122744]
-	Ordinal0 [0x00806537+2123063]
-	Ordinal0 [0x0080EE53+2158163]
+	Ordinal0 [0x007D2DB3+2502067]
+	Ordinal0 [0x0076C5B1+2082225]
+	Ordinal0 [0x00672498+1057944]
+	Ordinal0 [0x00664D2F+1002799]
+	Ordinal0 [0x00663D69+998761]
+	Ordinal0 [0x00664026+999462]
+	Ordinal0 [0x00663915+997653]
+	Ordinal0 [0x0066A54D+1025357]
+	Ordinal0 [0x006638D1+997585]
+	Ordinal0 [0x006647F6+1001462]
+	Ordinal0 [0x00663D69+998761]
+	Ordinal0 [0x00664026+999462]
+	Ordinal0 [0x00663915+997653]
+	Ordinal0 [0x0066977C+1021820]
+	Ordinal0 [0x006638D1+997585]
+	Ordinal0 [0x006647F6+1001462]
+	Ordinal0 [0x00663D69+998761]
+	Ordinal0 [0x00664026+999462]
+	Ordinal0 [0x00663915+997653]
+	Ordinal0 [0x0065F42D+980013]
+	Ordinal0 [0x006638D1+997585]
+	Ordinal0 [0x00663670+996976]
+	Ordinal0 [0x00663409+996361]
+	Ordinal0 [0x006736A0+1062560]
+	Ordinal0 [0x006BAA59+1354329]
+	Ordinal0 [0x006B967A+1349242]
+	Ordinal0 [0x006B5BEB+1334251]
+	Ordinal0 [0x00692174+1188212]
+	Ordinal0 [0x00693009+1191945]
+	GetHandleVerifier [0x0094EC5C+1511084]
+	GetHandleVerifier [0x009F8522+2205554]
+	GetHandleVerifier [0x00853393+480739]
+	GetHandleVerifier [0x00852579+477129]
+	Ordinal0 [0x00771E5D+2104925]
+	Ordinal0 [0x007763F8+2122744]
+	Ordinal0 [0x00776537+2123063]
+	Ordinal0 [0x0077EE53+2158163]
 	BaseThreadInitThunk [0x76DFFA29+25]
 	RtlGetAppContainerNamedObjectPath [0x77907A9E+286]
 	RtlGetAppContainerNamedObjectPath [0x77907A6E+238]
@@ -188,43 +240,43 @@ Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, tim
 System info: host: &apos;DESKTOP-AAFC7NS&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-	Ordinal0 [0x00862DB3+2502067]
-	Ordinal0 [0x007FC5B1+2082225]
-	Ordinal0 [0x00702498+1057944]
-	Ordinal0 [0x006F4D2F+1002799]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FA54D+1025357]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006F977C+1021820]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006EF42D+980013]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F3670+996976]
-	Ordinal0 [0x006F3409+996361]
-	Ordinal0 [0x007036A0+1062560]
-	Ordinal0 [0x0074AA59+1354329]
-	Ordinal0 [0x0074967A+1349242]
-	Ordinal0 [0x00745BEB+1334251]
-	Ordinal0 [0x00722174+1188212]
-	Ordinal0 [0x00723009+1191945]
-	GetHandleVerifier [0x009DEC5C+1511084]
-	GetHandleVerifier [0x00A88522+2205554]
-	GetHandleVerifier [0x008E3393+480739]
-	GetHandleVerifier [0x008E2579+477129]
-	Ordinal0 [0x00801E5D+2104925]
-	Ordinal0 [0x008063F8+2122744]
-	Ordinal0 [0x00806537+2123063]
-	Ordinal0 [0x0080EE53+2158163]
+	Ordinal0 [0x007D2DB3+2502067]
+	Ordinal0 [0x0076C5B1+2082225]
+	Ordinal0 [0x00672498+1057944]
+	Ordinal0 [0x00664D2F+1002799]
+	Ordinal0 [0x00663D69+998761]
+	Ordinal0 [0x00664026+999462]
+	Ordinal0 [0x00663915+997653]
+	Ordinal0 [0x0066A54D+1025357]
+	Ordinal0 [0x006638D1+997585]
+	Ordinal0 [0x006647F6+1001462]
+	Ordinal0 [0x00663D69+998761]
+	Ordinal0 [0x00664026+999462]
+	Ordinal0 [0x00663915+997653]
+	Ordinal0 [0x0066977C+1021820]
+	Ordinal0 [0x006638D1+997585]
+	Ordinal0 [0x006647F6+1001462]
+	Ordinal0 [0x00663D69+998761]
+	Ordinal0 [0x00664026+999462]
+	Ordinal0 [0x00663915+997653]
+	Ordinal0 [0x0065F42D+980013]
+	Ordinal0 [0x006638D1+997585]
+	Ordinal0 [0x00663670+996976]
+	Ordinal0 [0x00663409+996361]
+	Ordinal0 [0x006736A0+1062560]
+	Ordinal0 [0x006BAA59+1354329]
+	Ordinal0 [0x006B967A+1349242]
+	Ordinal0 [0x006B5BEB+1334251]
+	Ordinal0 [0x00692174+1188212]
+	Ordinal0 [0x00693009+1191945]
+	GetHandleVerifier [0x0094EC5C+1511084]
+	GetHandleVerifier [0x009F8522+2205554]
+	GetHandleVerifier [0x00853393+480739]
+	GetHandleVerifier [0x00852579+477129]
+	Ordinal0 [0x00771E5D+2104925]
+	Ordinal0 [0x007763F8+2122744]
+	Ordinal0 [0x00776537+2123063]
+	Ordinal0 [0x0077EE53+2158163]
 	BaseThreadInitThunk [0x76DFFA29+25]
 	RtlGetAppContainerNamedObjectPath [0x77907A9E+286]
 	RtlGetAppContainerNamedObjectPath [0x77907A6E+238]
@@ -256,197 +308,22 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
 	at com.flipkart.qa.base.TestBase.initialization(TestBase.java:39)
-	at com.flipkart.qa.testcases.HomePageTest.setUp(HomePageTest.java:32)
+	at com.flipkart.qa.testcases.ProductPageTest.setUp(ProductPageTest.java:35)
 </failure>
-    <system-err>Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 48637
+    <system-err>Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 14885
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1625056059.075][SEVERE]: Timed out receiving message from renderer: 600.000
+[1625064684.828][SEVERE]: Timed out receiving message from renderer: 600.000
 </system-err>
   </testcase>
-  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="verifyPageTitleTest" time="605.234">
+  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="verifyProductPrice" time="616.643">
     <skipped/>
   </testcase>
-  <testcase classname="com.flipkart.qa.testcases.PaymentPageTest" name="setUp" time="1,206.712">
-    <failure message="session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=91.0.4472.124)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-AAFC7NS&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00862DB3+2502067]
-	Ordinal0 [0x007FC5B1+2082225]
-	Ordinal0 [0x00702498+1057944]
-	Ordinal0 [0x006F4D2F+1002799]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FE534+1041716]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FC5AA+1033642]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FA459+1025113]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006F977C+1021820]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006EF42D+980013]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F3670+996976]
-	Ordinal0 [0x006F3409+996361]
-	Ordinal0 [0x007036A0+1062560]
-	Ordinal0 [0x0074AA59+1354329]
-	Ordinal0 [0x0074967A+1349242]
-	Ordinal0 [0x00745BEB+1334251]
-	Ordinal0 [0x00722174+1188212]
-	Ordinal0 [0x00723009+1191945]
-	GetHandleVerifier [0x009DEC5C+1511084]
-	GetHandleVerifier [0x00A88522+2205554]
-	GetHandleVerifier [0x008E3393+480739]
-	GetHandleVerifier [0x008E2579+477129]
-	Ordinal0 [0x00801E5D+2104925]
-	Ordinal0 [0x008063F8+2122744]
-	Ordinal0 [0x00806537+2123063]
-	Ordinal0 [0x0080EE53+2158163]
-	BaseThreadInitThunk [0x76DFFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77907A9E+286]
-	RtlGetAppContainerNamedObjectPath [0x77907A6E+238]
-" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=91.0.4472.124)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-AAFC7NS&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00862DB3+2502067]
-	Ordinal0 [0x007FC5B1+2082225]
-	Ordinal0 [0x00702498+1057944]
-	Ordinal0 [0x006F4D2F+1002799]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FE534+1041716]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FC5AA+1033642]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006FA459+1025113]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006F977C+1021820]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F47F6+1001462]
-	Ordinal0 [0x006F3D69+998761]
-	Ordinal0 [0x006F4026+999462]
-	Ordinal0 [0x006F3915+997653]
-	Ordinal0 [0x006EF42D+980013]
-	Ordinal0 [0x006F38D1+997585]
-	Ordinal0 [0x006F3670+996976]
-	Ordinal0 [0x006F3409+996361]
-	Ordinal0 [0x007036A0+1062560]
-	Ordinal0 [0x0074AA59+1354329]
-	Ordinal0 [0x0074967A+1349242]
-	Ordinal0 [0x00745BEB+1334251]
-	Ordinal0 [0x00722174+1188212]
-	Ordinal0 [0x00723009+1191945]
-	GetHandleVerifier [0x009DEC5C+1511084]
-	GetHandleVerifier [0x00A88522+2205554]
-	GetHandleVerifier [0x008E3393+480739]
-	GetHandleVerifier [0x008E2579+477129]
-	Ordinal0 [0x00801E5D+2104925]
-	Ordinal0 [0x008063F8+2122744]
-	Ordinal0 [0x00806537+2123063]
-	Ordinal0 [0x0080EE53+2158163]
-	BaseThreadInitThunk [0x76DFFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77907A9E+286]
-	RtlGetAppContainerNamedObjectPath [0x77907A6E+238]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.flipkart.qa.base.TestBase.initialization(TestBase.java:39)
-	at com.flipkart.qa.testcases.PaymentPageTest.setUp(PaymentPageTest.java:32)
-</failure>
-    <system-err>Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 46583
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1625056660.502][SEVERE]: Timed out receiving message from renderer: 600.000
-</system-err>
-  </testcase>
-  <testcase classname="com.flipkart.qa.testcases.PaymentPageTest" name="verifyPageIconTest" time="1,206.712">
+  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="setUp" time="616.647">
     <skipped/>
   </testcase>
-  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="veifyUserNameTest" time="5.181"/>
-  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="setUp" time="5.87">
+  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="productBuyNow" time="616.647">
     <skipped/>
   </testcase>
-  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="veifyUserNameTest" time="5.87">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.flipkart.qa.testcases.PaymentPageTest" name="setUp" time="5.871">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.flipkart.qa.testcases.PaymentPageTest" name="payment" time="5.871">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="verifyProductNameTest" time="13.467"/>
-  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="setUp" time="14.39">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.flipkart.qa.testcases.HomePageTest" name="searchProductStep" time="14.39">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="verifyProductPrice" time="5.031"/>
-  <testcase classname="com.flipkart.qa.testcases.ProductPageTest" name="productBuyNow" time="26.179"/>
 </testsuite>

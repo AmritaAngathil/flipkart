@@ -3,18 +3,16 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="com.flipkart.qa.testcases.HomePageTest">
+      <class name="com.flipkart.qa.testcases.ProductPageTest">
         <methods>
+          <include name="productBuyNow"/>
+          <include name="verifyProductPrice"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="searchProductStep"/>
-          <include name="veifyUserNameTest"/>
-          <include name="verifyPageTitleTest"/>
         </methods>
-      </class> <!-- com.flipkart.qa.testcases.HomePageTest -->
+      </class> <!-- com.flipkart.qa.testcases.ProductPageTest -->
       <class name="com.flipkart.qa.testcases.PaymentPageTest">
         <methods>
-          <include name="verifyPageIconTest"/>
           <include name="tearDown"/>
           <include name="payment"/>
           <include name="setUp"/>

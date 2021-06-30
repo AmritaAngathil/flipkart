@@ -2,134 +2,134 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="258971" started-at="2021-06-30T14:17:45Z" finished-at="2021-06-30T14:22:04Z">
+  <suite name="Suite" duration-ms="247250" started-at="2021-06-30T14:54:18Z" finished-at="2021-06-30T14:58:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="258971" started-at="2021-06-30T14:17:45Z" finished-at="2021-06-30T14:22:04Z">
+    <test name="Test" duration-ms="247250" started-at="2021-06-30T14:54:18Z" finished-at="2021-06-30T14:58:25Z">
       <class name="com.flipkart.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.LoginPageTest@57f23557]" name="setUp" is-config="true" duration-ms="10699" started-at="2021-06-30T19:47:45Z" finished-at="2021-06-30T19:47:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.LoginPageTest@57f23557]" name="setUp" is-config="true" duration-ms="9144" started-at="2021-06-30T20:24:18Z" finished-at="2021-06-30T20:24:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.flipkart.qa.testcases.LoginPageTest@57f23557]" name="loginTest" duration-ms="485" started-at="2021-06-30T19:47:56Z" finished-at="2021-06-30T19:47:56Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.flipkart.qa.testcases.LoginPageTest@57f23557]" name="loginTest" duration-ms="629" started-at="2021-06-30T20:24:27Z" finished-at="2021-06-30T20:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.LoginPageTest@57f23557]" name="tearDown" is-config="true" duration-ms="778" started-at="2021-06-30T19:48:00Z" finished-at="2021-06-30T19:48:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.LoginPageTest@57f23557]" name="tearDown" is-config="true" duration-ms="824" started-at="2021-06-30T20:24:31Z" finished-at="2021-06-30T20:24:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.flipkart.qa.testcases.LoginPageTest -->
       <class name="com.flipkart.qa.testcases.ProductPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="23903" started-at="2021-06-30T19:48:16Z" finished-at="2021-06-30T19:48:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="19954" started-at="2021-06-30T20:24:46Z" finished-at="2021-06-30T20:25:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="veifyUserNameTest()[pri:1, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="veifyUserNameTest" duration-ms="5128" started-at="2021-06-30T19:48:40Z" finished-at="2021-06-30T19:48:45Z">
+        <test-method status="PASS" signature="veifyUserNameTest()[pri:1, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="veifyUserNameTest" duration-ms="5093" started-at="2021-06-30T20:25:06Z" finished-at="2021-06-30T20:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- veifyUserNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="1651" started-at="2021-06-30T19:48:46Z" finished-at="2021-06-30T19:48:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="1353" started-at="2021-06-30T20:25:12Z" finished-at="2021-06-30T20:25:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="19105" started-at="2021-06-30T19:49:34Z" finished-at="2021-06-30T19:49:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="19961" started-at="2021-06-30T20:25:56Z" finished-at="2021-06-30T20:26:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyProductNameTest()[pri:2, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="verifyProductNameTest" duration-ms="5113" started-at="2021-06-30T19:49:53Z" finished-at="2021-06-30T19:49:58Z">
+        <test-method status="PASS" signature="verifyProductNameTest()[pri:2, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="verifyProductNameTest" duration-ms="5130" started-at="2021-06-30T20:26:16Z" finished-at="2021-06-30T20:26:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="1774" started-at="2021-06-30T19:49:58Z" finished-at="2021-06-30T19:50:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="2127" started-at="2021-06-30T20:26:22Z" finished-at="2021-06-30T20:26:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="18870" started-at="2021-06-30T19:51:04Z" finished-at="2021-06-30T19:51:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="18458" started-at="2021-06-30T20:27:28Z" finished-at="2021-06-30T20:27:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyProductPrice()[pri:3, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="verifyProductPrice" duration-ms="5048" started-at="2021-06-30T19:51:23Z" finished-at="2021-06-30T19:51:28Z">
+        <test-method status="PASS" signature="verifyProductPrice()[pri:3, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="verifyProductPrice" duration-ms="5064" started-at="2021-06-30T20:27:47Z" finished-at="2021-06-30T20:27:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPrice -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="1406" started-at="2021-06-30T19:51:29Z" finished-at="2021-06-30T19:51:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="788" started-at="2021-06-30T20:27:52Z" finished-at="2021-06-30T20:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="21335" started-at="2021-06-30T19:51:30Z" finished-at="2021-06-30T19:51:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="setUp" is-config="true" duration-ms="20468" started-at="2021-06-30T20:27:53Z" finished-at="2021-06-30T20:28:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productBuyNow()[pri:4, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="productBuyNow" duration-ms="10193" started-at="2021-06-30T19:51:51Z" finished-at="2021-06-30T19:52:01Z">
+        <test-method status="PASS" signature="productBuyNow()[pri:4, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="productBuyNow" duration-ms="10224" started-at="2021-06-30T20:28:14Z" finished-at="2021-06-30T20:28:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productBuyNow -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="2123" started-at="2021-06-30T19:52:02Z" finished-at="2021-06-30T19:52:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.ProductPageTest@6366ebe0]" name="tearDown" is-config="true" duration-ms="863" started-at="2021-06-30T20:28:24Z" finished-at="2021-06-30T20:28:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.flipkart.qa.testcases.ProductPageTest -->
       <class name="com.flipkart.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="setUp" is-config="true" duration-ms="8425" started-at="2021-06-30T19:48:00Z" finished-at="2021-06-30T19:48:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="setUp" is-config="true" duration-ms="8072" started-at="2021-06-30T20:24:31Z" finished-at="2021-06-30T20:24:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPageTitleTest()[pri:1, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="verifyPageTitleTest" duration-ms="5090" started-at="2021-06-30T19:48:09Z" finished-at="2021-06-30T19:48:14Z">
+        <test-method status="PASS" signature="verifyPageTitleTest()[pri:1, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="verifyPageTitleTest" duration-ms="5127" started-at="2021-06-30T20:24:39Z" finished-at="2021-06-30T20:24:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="tearDown" is-config="true" duration-ms="854" started-at="2021-06-30T19:48:16Z" finished-at="2021-06-30T19:48:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="tearDown" is-config="true" duration-ms="828" started-at="2021-06-30T20:24:46Z" finished-at="2021-06-30T20:24:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="setUp" is-config="true" duration-ms="7937" started-at="2021-06-30T19:49:21Z" finished-at="2021-06-30T19:49:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="setUp" is-config="true" duration-ms="8702" started-at="2021-06-30T20:25:43Z" finished-at="2021-06-30T20:25:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="veifyUserNameTest()[pri:2, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="veifyUserNameTest" duration-ms="3636" started-at="2021-06-30T19:49:29Z" finished-at="2021-06-30T19:49:32Z">
+        <test-method status="PASS" signature="veifyUserNameTest()[pri:2, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="veifyUserNameTest" duration-ms="2375" started-at="2021-06-30T20:25:52Z" finished-at="2021-06-30T20:25:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- veifyUserNameTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="tearDown" is-config="true" duration-ms="763" started-at="2021-06-30T19:49:33Z" finished-at="2021-06-30T19:49:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="tearDown" is-config="true" duration-ms="1114" started-at="2021-06-30T20:25:55Z" finished-at="2021-06-30T20:25:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="setUp" is-config="true" duration-ms="10259" started-at="2021-06-30T19:50:36Z" finished-at="2021-06-30T19:50:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="setUp" is-config="true" duration-ms="8391" started-at="2021-06-30T20:27:02Z" finished-at="2021-06-30T20:27:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchProductStep()[pri:3, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="searchProductStep" duration-ms="11091" started-at="2021-06-30T19:50:46Z" finished-at="2021-06-30T19:50:57Z">
+        <test-method status="PASS" signature="searchProductStep()[pri:3, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="searchProductStep" duration-ms="10770" started-at="2021-06-30T20:27:10Z" finished-at="2021-06-30T20:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductStep -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="tearDown" is-config="true" duration-ms="1878" started-at="2021-06-30T19:51:02Z" finished-at="2021-06-30T19:51:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.HomePageTest@3d0f8e03]" name="tearDown" is-config="true" duration-ms="900" started-at="2021-06-30T20:27:28Z" finished-at="2021-06-30T20:27:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.flipkart.qa.testcases.HomePageTest -->
       <class name="com.flipkart.qa.testcases.PaymentPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="setUp" is-config="true" duration-ms="24917" started-at="2021-06-30T19:48:47Z" finished-at="2021-06-30T19:49:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="setUp" is-config="true" duration-ms="23500" started-at="2021-06-30T20:25:13Z" finished-at="2021-06-30T20:25:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyPageIconTest()[pri:1, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="verifyPageIconTest" duration-ms="7123" started-at="2021-06-30T19:49:12Z" finished-at="2021-06-30T19:49:19Z">
+        <test-method status="PASS" signature="verifyPageIconTest()[pri:1, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="verifyPageIconTest" duration-ms="5113" started-at="2021-06-30T20:25:37Z" finished-at="2021-06-30T20:25:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageIconTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="tearDown" is-config="true" duration-ms="835" started-at="2021-06-30T19:49:20Z" finished-at="2021-06-30T19:49:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="tearDown" is-config="true" duration-ms="877" started-at="2021-06-30T20:25:42Z" finished-at="2021-06-30T20:25:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="setUp" is-config="true" duration-ms="23368" started-at="2021-06-30T19:50:00Z" finished-at="2021-06-30T19:50:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="setUp" is-config="true" duration-ms="25312" started-at="2021-06-30T20:26:24Z" finished-at="2021-06-30T20:26:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="payment()[pri:2, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="payment" duration-ms="11116" started-at="2021-06-30T19:50:23Z" finished-at="2021-06-30T19:50:35Z">
+        <test-method status="PASS" signature="payment()[pri:2, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="payment" duration-ms="11148" started-at="2021-06-30T20:26:49Z" finished-at="2021-06-30T20:27:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payment -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="tearDown" is-config="true" duration-ms="789" started-at="2021-06-30T19:50:35Z" finished-at="2021-06-30T19:50:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.PaymentPageTest@44f75083]" name="tearDown" is-config="true" duration-ms="1260" started-at="2021-06-30T20:27:00Z" finished-at="2021-06-30T20:27:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
