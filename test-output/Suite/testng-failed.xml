@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.flipkart.qa.base.ExtentReportListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.flipkart.qa.testcases.PaymentPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="payment"/>
+          <include name="setUp"/>
+          <include name="invalid"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.PaymentPageTest -->
+      <class name="com.flipkart.qa.testcases.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="searchProductStep"/>
+          <include name="veifyUserNameTest"/>
+          <include name="verifyPageTitleTest"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.HomePageTest -->
+      <class name="com.flipkart.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.LoginPageTest -->
+      <class name="com.flipkart.qa.testcases.ProductPageTest">
+        <methods>
+          <include name="verifyProductNameTest"/>
+          <include name="productBuyNow"/>
+          <include name="verifyProductPrice"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="veifyUserNameTest"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.ProductPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

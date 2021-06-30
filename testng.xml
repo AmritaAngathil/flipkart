@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="com.flipkart.qa.base.ExtentReportListener"/>
+</listeners>
+  <test thread-count="4" name="Test" parallel="tests">
+    <classes>
+      <class name="com.flipkart.qa.testcases.LoginPageTest"/>
+      <class name="com.flipkart.qa.testcases.HomePageTest"/>
+      <class name="com.flipkart.qa.testcases.ProductPageTest"/>
+      <class name="com.flipkart.qa.testcases.PaymentPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
