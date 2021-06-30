@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.flipkart.qa.base.ExtentReportListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
     <classes>
-      <class name="com.flipkart.qa.testcases.PaymentPageTest">
+      <class name="com.flipkart.qa.testcases.ProductPageTest">
         <methods>
-          <include name="verifyPageIconTest"/>
+          <include name="productBuyNow"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.flipkart.qa.testcases.PaymentPageTest -->
+      </class> <!-- com.flipkart.qa.testcases.ProductPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

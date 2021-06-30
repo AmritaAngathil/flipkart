@@ -1,34 +1,172 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 143.022 sec <<< FAILURE!
-setUp(com.flipkart.qa.testcases.ProductPageTest)  Time elapsed: 44.116 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'SAMSUNG 198 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer')]"}
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 1,415.457 sec <<< FAILURE!
+setUp(com.flipkart.qa.testcases.HomePageTest)  Time elapsed: 605.233 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
   (Session info: chrome=91.0.4472.124)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-AAFC7NS', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63402}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9ea1465464d2069a0241126fbb142463
-*** Element info: {Using=xpath, value=//*[contains(text(), 'SAMSUNG 198 L Direct Cool Single Door 5 Star Refrigerator with Base Drawer')]}
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00862DB3+2502067]
+	Ordinal0 [0x007FC5B1+2082225]
+	Ordinal0 [0x00702498+1057944]
+	Ordinal0 [0x006F4D2F+1002799]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006FA54D+1025357]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F47F6+1001462]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006F977C+1021820]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F47F6+1001462]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006EF42D+980013]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F3670+996976]
+	Ordinal0 [0x006F3409+996361]
+	Ordinal0 [0x007036A0+1062560]
+	Ordinal0 [0x0074AA59+1354329]
+	Ordinal0 [0x0074967A+1349242]
+	Ordinal0 [0x00745BEB+1334251]
+	Ordinal0 [0x00722174+1188212]
+	Ordinal0 [0x00723009+1191945]
+	GetHandleVerifier [0x009DEC5C+1511084]
+	GetHandleVerifier [0x00A88522+2205554]
+	GetHandleVerifier [0x008E3393+480739]
+	GetHandleVerifier [0x008E2579+477129]
+	Ordinal0 [0x00801E5D+2104925]
+	Ordinal0 [0x008063F8+2122744]
+	Ordinal0 [0x00806537+2123063]
+	Ordinal0 [0x0080EE53+2158163]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77907A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77907A6E+238]
+
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at com.flipkart.qa.pages.HomePage.searchProduct(HomePage.java:48)
-	at com.flipkart.qa.testcases.ProductPageTest.setUp(ProductPageTest.java:46)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.flipkart.qa.base.TestBase.initialization(TestBase.java:39)
+	at com.flipkart.qa.testcases.HomePageTest.setUp(HomePageTest.java:32)
+
+setUp(com.flipkart.qa.testcases.PaymentPageTest)  Time elapsed: 1,206.712 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AAFC7NS', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00862DB3+2502067]
+	Ordinal0 [0x007FC5B1+2082225]
+	Ordinal0 [0x00702498+1057944]
+	Ordinal0 [0x006F4D2F+1002799]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006FE534+1041716]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F47F6+1001462]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006FC5AA+1033642]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F47F6+1001462]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006FA459+1025113]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F47F6+1001462]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006F977C+1021820]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F47F6+1001462]
+	Ordinal0 [0x006F3D69+998761]
+	Ordinal0 [0x006F4026+999462]
+	Ordinal0 [0x006F3915+997653]
+	Ordinal0 [0x006EF42D+980013]
+	Ordinal0 [0x006F38D1+997585]
+	Ordinal0 [0x006F3670+996976]
+	Ordinal0 [0x006F3409+996361]
+	Ordinal0 [0x007036A0+1062560]
+	Ordinal0 [0x0074AA59+1354329]
+	Ordinal0 [0x0074967A+1349242]
+	Ordinal0 [0x00745BEB+1334251]
+	Ordinal0 [0x00722174+1188212]
+	Ordinal0 [0x00723009+1191945]
+	GetHandleVerifier [0x009DEC5C+1511084]
+	GetHandleVerifier [0x00A88522+2205554]
+	GetHandleVerifier [0x008E3393+480739]
+	GetHandleVerifier [0x008E2579+477129]
+	Ordinal0 [0x00801E5D+2104925]
+	Ordinal0 [0x008063F8+2122744]
+	Ordinal0 [0x00806537+2123063]
+	Ordinal0 [0x0080EE53+2158163]
+	BaseThreadInitThunk [0x76DFFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77907A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77907A6E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.flipkart.qa.base.TestBase.initialization(TestBase.java:39)
+	at com.flipkart.qa.testcases.PaymentPageTest.setUp(PaymentPageTest.java:32)
 
